@@ -1,0 +1,44 @@
+.sl_ctr{
+position:relative;
+width:1360px;
+height:448px;
+}
+.sldr{
+position:relative;
+width:10000px;
+height:448px;
+}
+
+.prv_b, .nxt_b{
+position:absolute;
+top:135px;
+display:block;
+width:65px;
+height:65px;
+cursor:pointer;
+}
+
+.prv_b:hover, .nxt_b:hover{opacity:.6;}
+
+.prv_b{
+left:25px;
+background:url(images/png.png) no-repeat;
+}
+.nxt_b{
+right:15px;
+background:url(images/png.png) no-repeat;
+}
+
+/* Заголовок слайда */
+.sldr h5 span {
+    position: absolute;
+    overflow:hidden;
+    padding:390px 40px;
+    z-index:15;
+    color: #fff;
+    font-size: 25px;
+    /* Тень*/
+    text-shadow: 1px 1px 1px #000, 0 0 1em #000;
+    font: bold 24px/45px Helvetica, Sans-Serif;
+}
+
